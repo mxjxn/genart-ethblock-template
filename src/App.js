@@ -1,19 +1,20 @@
 import React, { useRef, useState } from 'react'
 import { Canvas } from 'react-three-fiber'
-import CustomStyle from './YourStyle'
+import DayOne from './YourStyle'
 
 export default function App() {
   return (
     <div>
+      <h1>#genruary2023</h1>
       <Canvas
         style={{
-          border: '1px solid red',
           margin: '0 auto',
           marginTop: '64px',
           width: '640px',
           height: '640px'
         }}>
-        <CustomStyle />
+        <color attach="background" args={['#171717']} />
+        <DayOne />
       </Canvas>
     </div>
   )
