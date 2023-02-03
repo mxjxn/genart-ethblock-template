@@ -1,21 +1,15 @@
 import React, { useRef, useState } from 'react'
-import { Canvas } from 'react-three-fiber'
-import DayOne from './YourStyle'
+import DayTwo from './Feb2'
 
 export default function App() {
+
+
+
   return (
     <div>
       <h1>#genruary2023</h1>
-      <Canvas
-        style={{
-          margin: '0 auto',
-          marginTop: '64px',
-          width: '640px',
-          height: '640px'
-        }}>
-        <color attach="background" args={['#171717']} />
-        <DayOne />
-      </Canvas>
+      <h2>Day 2</h2>
+      <DayTwo/>
     </div>
   )
 }
